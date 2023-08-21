@@ -1,7 +1,7 @@
 {
   "name": "excel",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pure JavaScript Excel Application",
   "main": "webpack.config.js",
   "scripts": {
     "start": "webpack serve --mode=development",
@@ -27,10 +27,12 @@
     "sass": "^1.63.6",
     "sass-loader": "^13.3.2",
     "webpack": "^5.88.1",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
-    "eslint": "^8.44.0"
+    "eslint": "^8.44.0",
+    "normalize.css": "^8.0.1"
   }
 }
