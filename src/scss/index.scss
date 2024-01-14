@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Public+Sans&display=swap');
-@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import "~normalize.css";
+
 @import "header";
 @import "toolbar";
 @import "formula";
@@ -13,7 +14,7 @@
 }
 
 body {
-  font-family: 'Open-sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
 }
 
@@ -24,3 +25,5 @@ body {
   max-width: 100%;
   font-size: .8rem;
 }
+
+
