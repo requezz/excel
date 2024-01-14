@@ -11,5 +11,11 @@ module.exports = {
     es6: true,
   },
   extends: ['eslint:recommended', 'google'],
-  rules: {},
+  rules: {
+    'semi': 'off',
+    'arrow-parens': 'off',
+    'comma-dangle': 'off',
+    'require-jsdoc': 'off',
+    'operator-linebreak': 'off',
+  },
 };
